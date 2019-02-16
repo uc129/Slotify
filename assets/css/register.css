@@ -1,0 +1,112 @@
+body {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237A57);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237A57);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+div#wrapper {
+    width: 40%;
+    padding: 20px;
+
+}
+
+img.logo {
+    height: 50px;
+}
+
+label {
+    color: #fff;
+}
+
+input.form-control {
+    width: 300px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+input.form-control:focus {
+    background-color: transparent;
+    outline: none;
+    color: seagreen;
+}
+
+span.errorMessage {
+    font-weight: bold;
+    color: tomato;
+    font-size: 12px;
+}
+
+
+button.form-control {
+    width: 300px;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 3em;
+    color: white;
+}
+
+button.form-control:hover {
+    background-color: seagreen;
+}
+
+h1.form-header {
+    font-size: 1.5em;
+}
+
+p span.sign-link {
+    color: white;
+}
+
+p span.sign-link:hover {
+    color: lightgreen;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p.sign-link-text {
+    color: white;
+}
+
+div.sign-in-form {
+    width: 340px;
+    padding-right: 30px;
+    margin: 0 auto;
+    border-right: 1px solid lightgrey;
+}
+
+div.sign-up-form {
+    width: 340px;
+    padding-right: 30px;
+    margin: 0 auto;
+    border-right: 1px solid lightgrey;
+    display: none;
+
+}
+
+/* Right hand side */
+
+div#right-hand-side h1.display-3 {
+    margin-top: 30px;
+    font-size: 4.8em;
+}
+
+div#right-hand-side h1.lead {
+    font-size: 2.6em;
+    margin-top: 30px;
+    color: white;
+
+}
+
+
+li {
+    margin-top: 40px;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+}

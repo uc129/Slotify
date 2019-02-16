@@ -1,0 +1,217 @@
+body,
+html {
+	/* background-color: rgb(25, 25, 25); */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #181818;
+	min-width: 720px;
+	font-size: 16px;
+	color: white;
+}
+
+div#mainViewContainer {
+	margin-left: 220px;
+	width: calc(100%-220px);
+	padding-bottom: 90px;
+}
+
+div#mainContent {
+	padding: 0 20px;
+}
+
+div#discoverAlbum {
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+div.card-body {
+	/* height: 25px; */
+	padding: 0;
+	margin: 0;
+}
+
+div.card div.card-body a {
+
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+div#nowPlayingBarContainer {
+	width: 100%;
+	height: 100px;
+	min-width: 620px;
+
+	background-color: #282828;
+
+	bottom: 0;
+	position: fixed;
+}
+
+#nowPlayingBar {
+	display: flex;
+	height: 90px;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+#nowPlayingLeft,
+#nowPlayingRight {
+	width: 30%;
+	min-width: 180px;
+}
+
+#nowPlayingCenter {
+	width: 40%;
+	max-width: 720px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button.controlButtons {
+	background-color: transparent;
+	vertical-align: middle;
+	border: none;
+	color: #a0a0a0;
+	font-size: 1.2em;
+}
+
+button#play,
+button#pause {
+	font-size: 2em;
+}
+
+button#pause {
+	display: none;
+}
+
+.progressTime {
+	color: #a0a0a0;
+	text-align: center;
+	font-size: 11px;
+	min-width: 40px;
+}
+
+.playbackBar {
+	width: 100%;
+	display: flex;
+}
+
+.progressBar {
+	width: 100%;
+	height: 12px;
+	display: inline-flex;
+	cursor: pointer;
+}
+
+.playbackBar .progressBar {
+	margin-top: 7px;
+}
+
+.progressBarBg {
+	background-color: #404040;
+	height: 4px;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.progressb {
+	background-color: #a0a0a0;
+	height: 4px;
+	width: 20%;
+	border-radius: 4px;
+}
+
+.albumArt {
+	height: 80px;
+	width: 80px;
+	padding-bottom: 10px;
+	float: left;
+	margin-right: 15px;
+	background-size: cover;
+}
+
+#nowPlayingLeft .trackInfo {
+	display: table;
+}
+
+#nowPlayingLeft .trackInfo .trackName {
+	display: inline-block;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+#nowPlayingLeft .trackInfo .artistName {
+	font-size: 0.8em;
+	color: #a0a0a0;
+}
+
+.volumeBar {
+	width: 200px;
+	position: absolute;
+	right: 0;
+}
+
+.volumeBar .progressBar {
+	width: 150px;
+}
+
+#nowPlayingRight {
+	position: relative;
+	margin-top: 22px;
+}
+
+#vol-mute {
+	display: none;
+}
+
+div#topContainer {
+	width: 100%;
+	min-height: 100%;
+}
+
+div#navBarContainer {
+	width: 220px;
+	height: 100vh;
+
+	top: 0;
+	left: 0;
+
+	position: fixed;
+	background-color: #000;
+}
+
+a.nav-link.logo {
+	font-size: 5em;
+	padding-left: 40px;
+	margin-left: 20px;
+	color: rgb(126, 211, 40);
+}
+
+a.nav-link.logo:hover {
+	color: darkgreen;
+}
+
+.nav-link {
+	color: white;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+input.form-control {
+	box-sizing: border-box;
+	width: 80%;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: url(../slotify/assets/images/search.png);
+	background-repeat: no-repeat;
+	background-position: 150px 10px;
+	background-size: 20px;
+	margin-bottom: 40px;
+}
